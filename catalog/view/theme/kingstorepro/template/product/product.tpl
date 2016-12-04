@@ -2002,10 +2002,10 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 	<p class="wedptit" style="margin-bottom: 2px;"><h3>Shipping Time</h3></p>
 	<p class="wedp">Shipping Time is the time taken for the finished dress to be shipped to you. </p>
 	<p class="wedptit" style="margin-bottom: 2px;"><h3>Formal Dresses</h3></p>
-	<p class="wedp">Generally speaking, it will take 15-18 calendar days for professional dressmaker to tailor your dresses. Then it will take EMS about 3-5 working days for the finished dresses to travel from our country to the destination.</p>
+	<p class="wedp">Generally speaking, it will take 10-15 calendar days for professional dressmaker to tailor your dresses. Then it will take EMS about 3-5 working days for the finished dresses to travel from our country to the destination.</p>
 	<img src="image/catalog/shippingmethods/promdressprocessingtime.jpg" alt="" title="" class="wedimgbg">
 	<p class="wedptit" style="margin-bottom: 2px;"><h3>Wedding Dresses</h3></p>
-	<p class="wedp">Generally speaking, it will take 18-25 calendar days for professional dressmaker to tailor your dresses. Also it will take EMS about 3-5 working days for the finished dresses to travel from our country to the destination.</p>
+	<p class="wedp">Generally speaking, it will take 12-28 calendar days for professional dressmaker to tailor your dresses. Also it will take EMS about 3-5 working days for the finished dresses to travel from our country to the destination.</p>
 	<img src="image/catalog/shippingmethods/weddingdressprocessingtime.jpg" alt="" title="" class="wedimgbg">
 	<p class="wedptit" style="margin-bottom: 2px;"><h3>The Statement for Urgent Orders</h3></p>
 	<p class="wedp">For the free shipping items on our website, we usually ship them out by Standard Shipping. Generally speaking, it will take Standard Shipping about 2-8 working days to ship out the items. But if you need your items urgently, please select Expedited Shipping(It's about 2-5 working days and not free on our website). Select your country as&nbsp; shipping destination, and then, pay for the shipping fee, so that we can ship out your items ASAP</p>
