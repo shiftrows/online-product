@@ -1,0 +1,19 @@
+##dressbib 更新记录
+
+
+#2015-8-29
+*调整menu之间的间隔，主要涉及css/menu.css 第72行
+#去除显示refine search， 主要涉及template/categery.tpl
+
+#2015-08-29
+*添加thum nail 的滑动框 涉及stylesheet.css中第1345
+
+
+#2015-09-05
+*修改export/import工具中关于上传productoptions和productoptionvalues
+
+#2015-11-25
+*修改产品的name最多显示两行。修改位于stylesheet(1042) .name
+
+#2015-12-20
+*添加live chat。修改位于common/header.tpl  后台:dashboard.zopim.com
