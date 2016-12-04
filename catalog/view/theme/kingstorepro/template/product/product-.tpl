@@ -410,9 +410,9 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 						<span>
 						<em class="icon-tailoring"></em>
 						<?php if ($breadcrumbs[1]['text']== "Wedding Dresses") {?>
-							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;18-25 Days
+							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;12-18 Days
 						<?php }else{?>
-							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;15-18 Days
+							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;10-15 Days
 						<?php }?>
 						<span class="hide" id="timeTip">
 						<span class="arrow"></span>

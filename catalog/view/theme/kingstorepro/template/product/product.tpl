@@ -399,7 +399,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 <a class="addthis_counter addthis_pill_style"></a>
 </div>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script>
- 
+
 			        	<!-- AddThis Button END -->
 			        </div>
 			        <?php } ?>
@@ -411,9 +411,9 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 						<span>
 						<em class="icon-tailoring"></em>
 						<?php if ($breadcrumbs[1]['text']== "Wedding Dresses") {?>
-							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;18-25 Days
+							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;12-18 Days
 						<?php }else{?>
-							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;15-18 Days
+							<a href="javascript:void(0)" class="tailoring-time">Tailoring Time</a>:&nbsp;10-15 Days
 						<?php }?>
 						<span class="hide" id="timeTip">
 						<span class="arrow"></span>
