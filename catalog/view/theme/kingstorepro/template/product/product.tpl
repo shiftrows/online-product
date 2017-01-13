@@ -581,7 +581,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 	}
 	function setSelect(obj){
 		obj.parentNode.previousElementSibling.childNodes[2].textContent=obj.attributes['title'].nodeValue;
-		obj.parentNode.previousElementSibling.childNodes[1].src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/" + obj.attributes['to'].nodeValue + ".jpg";
+		obj.parentNode.previousElementSibling.childNodes[1].src="http://www.dressbib.com/image/catalog/colorchat/" + obj.attributes['to'].nodeValue + ".jpg";
 	}
 </script>
 
@@ -1497,66 +1497,50 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/organza_black.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/organza/Black_042.jpg">
 				Daffodil
 			</dt>
 			<dd id="organza" class="color-chart-focus">
-				<img src="http://www.dressbib.com/image/catalog/colorchat/organza.jpg">
-				<div onclick="setSelect(this)" to="Organza/Brown" title="Brown" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
-			<div onclick="setSelect(this)" to="Organza/Black" title="Black" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Blue" title="Blue" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Champagne" title="Champagne" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Chocolate" title="Chocolate" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Burgundy" title="Burgundy" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Daffodil" title="Daffodil" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Dark_Navy" title="Dark Navy" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Dark_Green" title="Dark Green" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Fuchsia" title="Fuchsia" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Gold" title="Gold" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Grape" title="Grape" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Green" title="Green" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Hunter" title="Hunter" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Ivory" title="Ivory" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Lavender" title="Lavender" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Pearl_Pink" title="Pearl Pink" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Light_Sky_Blue" title="Light Sky Blue" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Lilac" title="Lilac" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Orange" title="Orange" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Pink" title="Pink" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Red" title="Red" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Royal_Blue" title="Royal Blue" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Sage" title="Sage" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Silver" title="Silver" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/White" title="White" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Regency" title="Regency" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Organza/Watermelon" title="Watermelon" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<img src="http://www.dressbib.com/image/catalog/colorchat/organza.jpg"/>
+			<div onclick="setSelect(this)" to="organza/White_022" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/WaterMelon_005" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/SkinPink_024" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/Silver_015" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/Sage_023" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/RoyalBlue_031" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/Regency_024" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/Red_028" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/Purple_029" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/Pink_035" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/PearlPink_010" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Org_012" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/OrangeRed_050" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Mint_002" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Lilac_009" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/LightSkyBlue_008" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/LightPlum_016" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Lavender_055" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Kelly_048" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Ivory_006" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/IceBlue_054" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Hunter_043" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Green_026" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Grape_020" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Gold_044" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Fuchsia_014" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/DarkRoyalBlue_045" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/DarkNavy_004" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/DarkGreen_040" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/DarkBrown_051" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Daffodil_019" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Chocolate_051" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Champagne_041" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Burgundy_021" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/BudGreen_017" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Brown_011" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/BrightRustRed_007" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Blue_037" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="organza/Black_042" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
@@ -1569,66 +1553,50 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Chiffon/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/chiffion/Black_017.jpg">
 				Daffodil
 			</dt>
-			<dd id="chiffon"><img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Chiffon.jpg">
-			<div onclick="setSelect(this)" to="Chiffon/Black" title="Black" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Blue" title="Blue" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Brown" title="Brown" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Burgundy" title="Burgundy" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Champagne" title="Champagne" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Chocolate" title="Chocolate" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Dark_Navy" title="Dark Navy" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Daffodil" title="Daffodil" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Dark_Green" title="Dark Green" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Fuchsia" title="Fuchsia" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Gold" title="Gold" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Grape" title="Grape" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Green" title="Green" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Hunter" title="Hunter" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Ivory" title="Ivory" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Lavender" title="Lavender" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Pearl_Pink" title="Pearl Pink" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Light_Sky_Blue" title="Light Sky Blue" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Lilac" title="Lilac" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Orange" title="Orange" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Pink" title="Pink" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Royal_Blue" title="Royal Blue" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Sage" title="Sage" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Red" title="Red" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Silver" title="Silver" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/White" title="White" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Regency" title="Regency" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Chiffon/Watermelon" title="Watermelon" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<dd id="elastic_woven_satin" class="color-chart-focus">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/chiffion.jpg"/>
+<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/White_015" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/WaterMelon_93" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/SkinPink_4" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/Silver_11" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/Sage_220" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/RoyalBlue_8" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Regency_020" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Red_19" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Purple_20" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Pink_100" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/PearlPink_022" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Org_2248" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/OrangeRed_90" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Mint_81" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Lilac_08" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/LightSkyBlue_76" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/LightPlum_475" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Lavender_25" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Kelly_61" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Ivory_016" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/IceBlue_62" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Hunter_65" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Green_2343" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Grape_38" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Gold_9" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Fuchsia_27" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/DarkRoyalBlue_18" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/DarkNavy_2244" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/DarkGreen_05" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/DarkBrown_1223" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Daffodil_31" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Chocolate_3" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Champagne_222" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Burgundy_848" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/BudGreen_22" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Brown_79" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/BrightRustRed_91" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Blue_28" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="chiffon/Black_017" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
@@ -1641,66 +1609,50 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Elastic-Woven-Satin/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/elastic_satin/Black_059.jpg">
 				Daffodil
 			</dt>
-			<dd id="elastic_woven_satin" class="color-chart-focus"><img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Elastic-Woven-Satin.jpg">
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Daffodil" title="Daffodil" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Orange" title="Orange" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Pink" title="Pink" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Fuchsia" title="Fuchsia" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Red" title="Red" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Burgundy" title="Burgundy" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Lilac" title="Lilac" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Lavender" title="Lavender" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Grape" title="Grape" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Light_Sky_Blue" title="Light Sky Blue" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Blue" title="Blue" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Royal_Blue" title="Royal Blue" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Dark_Navy" title="Dark Navy" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Sage" title="Sage" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Green" title="Green" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Hunter" title="Hunter" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Dark_Green" title="Dark Green" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Brown" title="Brown" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Chocolate" title="Chocolate" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/White" title="White" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Ivory" title="Ivory" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Champagne" title="Champagne" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Gold" title="Gold" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Silver" title="Silver" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Black" title="Black" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Pearl_Pink" title="Pearl Pink" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Watermelon" title="Watermelon" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Elastic-Woven-Satin/Regency" title="Regency" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<dd id="elastic_woven_satin" class="color-chart-focus">
+			<img src="http://www.dressbib.com/image/catalog/colorchat/elastic_satin.jpg"/>
+<div onclick="setSelect(this)" to="elastic_satin/White_022" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/WaterMelon_808" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/SkinPink_100" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Silver_108" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Sage_104" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/RoyalBlue_038" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Regency_806" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Red_016" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Purple_026" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Pink_003" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/PearlPink_803" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Org_101" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/OrangeRed_010" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Mint_091" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Lilac_027" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/LightSkyBlue_023" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/LightPlum_035" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Lavender_032" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Kelly_807" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Ivory_001" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/IceBlue_078" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Hunter_065" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Green_051" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Grape_804" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Gold_064" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Fuchsia_015" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/DarkRoyalBlue_006" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/DarkNavy_052" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/DarkGreen_802" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/DarkBrown_054" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Daffodil_031" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Chocolate_060" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Champagne_039" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Burgundy_029" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/BudGreen_005" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Brown_011" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/BrightRustRed_018" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Blue_009" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="elastic_satin/Black_059" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
@@ -1713,66 +1665,50 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Matte-Satin/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/satin/Black_043.jpg">
 				Daffodil
 			</dt>
-			<dd id="matte_satin" class="color-chart-focus"><img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Matte-Satin.jpg">
-			<div onclick="setSelect(this)" to="Matte-Satin/Daffodil" title="Daffodil" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Orange" title="Orange" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Pink" title="Pink" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Fuchsia" title="Fuchsia" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Red" title="Red" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Burgundy" title="Burgundy" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Lilac" title="Lilac" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Lavender" title="Lavender" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Grape" title="Grape" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Light_Sky_Blue" title="Light Sky Blue" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Blue" title="Blue" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Royal_Blue" title="Royal Blue" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Dark_Navy" title="Dark Navy" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Sage" title="Sage" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Green" title="Green" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Hunter" title="Hunter" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Dark_Green" title="Dark Green" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Brown" title="Brown" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Chocolate" title="Chocolate" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/White" title="White" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Ivory" title="Ivory" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Champagne" title="Champagne" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Gold" title="Gold" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Silver" title="Silver" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Black" title="Black" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Pearl_Pink" title="Pearl Pink" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Watermelon" title="Watermelon" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Matte-Satin/Regency" title="Regency" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<dd id="matte_satin" class="color-chart-focus">
+			<img src="http://www.dressbib.com/image/catalog/colorchat/satin.jpg"/>
+<div onclick="setSelect(this)" to="satin/White_082" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/WaterMelon_096" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/SkinPink_068" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Silver_038" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Sage_021" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/RoyalBlue_053" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Regency_086" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Red_001" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Purple_071" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Pink_032" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/PearlPink_091" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Org_035" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/OrangeRed_016" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Mint_052" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Lilac_008" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/LightSkyBlue_041" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/LightPlum_042" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Lavender_090" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Kelly_018" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Ivory_076" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/IceBlue_087" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Hunter_031" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Green_065" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Grape_002" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Gold_037" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Fuchsia_011" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/DarkRoyalBlue_095" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/DarkNavy_026" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/DarkGreen_062" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/DarkBrown_044" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Daffodil_005" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Chocolate_017" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Champagne_083" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Burgundy_039" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/BudGreen_004" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Brown_061" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/BrightRustRed_013" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Blue_040" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="satin/Black_043" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
@@ -1785,66 +1721,47 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Satin/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/Satin_Chiffon/Black.jpg">
 				Daffodil
 			</dt>
-			<dd id="satin" class="color-chart-focus"><img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Satin.jpg">
-			<div onclick="setSelect(this)" to="Satin/Daffodil" title="Daffodil" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Orange" title="Orange" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Pink" title="Pink" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Fuchsia" title="Fuchsia" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Red" title="Red" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Burgundy" title="Burgundy" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Lilac" title="Lilac" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Lavender" title="Lavender" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Grape" title="Grape" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Light_Sky_Blue" title="Light Sky Blue" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Blue" title="Blue" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Royal_Blue" title="Royal Blue" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Dark_Navy" title="Dark Navy" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Sage" title="Sage" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Green" title="Green" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Hunter" title="Hunter" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Dark_Green" title="Dark Green" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Brown" title="Brown" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Chocolate" title="Chocolate" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/White" title="White" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Ivory" title="Ivory" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Champagne" title="Champagne" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Gold" title="Gold" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Silver" title="Silver" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Black" title="Black" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Pearl_Pink" title="Pearl Pink" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Watermelon" title="Watermelon" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Satin/Regency" title="Regency" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<dd id="satin" class="color-chart-focus">
+			<img src="http://www.dressbib.com/image/catalog/colorchat/Satin_Chiffon.jpg"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Blue" title="Blue" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Bright Rust Red" title="Rust Red" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Brown" title="Brown" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/BudGreen" title="BudGreen" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Burgundy" title="Burgundy" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Champagne" title="Champagne" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Chocolate" title="Chocolate" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Daffodil" title="Daffodil" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/DarkBrown" title="DarkBrown" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/DarkGreen" title="DarkGreen" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/DarkNavy" title="DarkNavy" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/White" title="White" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/DarkRoyalBlue" title="DarkRoyalBlue" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Fuchsia" title="Fuchsia" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Gold" title="Golden" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Grape" title="Grape" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Green" title="Green" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Hunter" title="Hunter" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Ivory" title="Ivory" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Kelly" title="Kelly" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Lavender" title="Lavender" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Light Plum" title="Light Plum" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/LightSkyBlue" title="Sky Blue" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Lilac" title="Lilac" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Mint" title="Mint" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Orange Red" title="Orange Red" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/PearlPink" title="PearlPink" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Pink" title="Pink" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Purple" title="Purple" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Red" title="Red" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Regency" title="Regency" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/RoyalBlue" title="RoyalBlue" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Silver" title="Silver" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/SkinPink" title="Peach" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Watermelon" title="Watermelon" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="Satin_chiffon/Black" title="Black" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
@@ -1857,66 +1774,50 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Silk-Like-Satin/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/silk_like_satin/Black_017.jpg">
 				Daffodil
 			</dt>
-			<dd id="silk_like_satin" class="color-chart-focus"><img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Silk-Like-Satin.jpg">
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Daffodil" title="Daffodil" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Orange" title="Orange" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Pink" title="Pink" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Fuchsia" title="Fuchsia" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Red" title="Red" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Burgundy" title="Burgundy" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Lilac" title="Lilac" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Lavender" title="Lavender" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Grape" title="Grape" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Light_Sky_Blue" title="Light Sky Blue" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Blue" title="Blue" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Royal_Blue" title="Royal Blue" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Dark_Navy" title="Dark Navy" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Sage" title="Sage" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Green" title="Green" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Hunter" title="Hunter" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Dark_Green" title="Dark Green" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Brown" title="Brown" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Chocolate" title="Chocolate" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/White" title="White" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Ivory" title="Ivory" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Champagne" title="Champagne" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Gold" title="Gold" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Silver" title="Silver" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Black" title="Black" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Pearl_Pink" title="Pearl Pink" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Watermelon" title="Watermelon" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Silk-Like-Satin/Regency" title="Regency" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<dd id="silk_like_satin" class="color-chart-focus">
+			<img src="http://www.dressbib.com/image/catalog/colorchat/silk_like_satin.jpg"/>
+<div onclick="setSelect(this)" to="silk_like_satin/White_002" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/WaterMelon_083" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/SkinPink_068" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Silver_021" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Sage_110" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/RoyalBlue_113" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Regency_086" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Red_001" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Purple_116" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Pink_065" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/PearlPink_023" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Org_077" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/OrangeRed_054" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Mint_005" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Lilac_062" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/LightSkyBlue_014" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/LightPlum_090" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Lavender_100" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Kelly_080" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Ivory_016" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/IceBlue_084" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Hunter_082" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Green_071" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Grape_058" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Gold_037" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Fuchsia_073" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/DarkRoyalBlue_061" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/DarkNavy_088" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/DarkGreen_093" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/DarkBrown_043" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Daffodil_003" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Chocolate_025" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Champagne_045" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Burgundy_047" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/BudGreen_124" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Brown_011" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/BrightRustRed_022" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Blue_006" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="silk_like_satin/Black_017" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
@@ -1929,66 +1830,50 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Taffeta/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/taffeta/Black_024.jpg">
 				Daffodil
 			</dt>
-			<dd id="taffeta" class="color-chart-focus"><img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Taffeta.jpg">
-			<div onclick="setSelect(this)" to="Taffeta/Brown" title="Brown" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Burgundy" title="Burgundy" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Black" title="Black" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Blue" title="Blue" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Champagne" title="Champagne" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Chocolate" title="Chocolate" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Daffodil" title="Daffodil" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Dark_Green" title="Dark Green" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Dark_Navy" title="Dark Navy" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Fuchsia" title="Fuchsia" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Gold" title="Gold" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Grape" title="Grape" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Green" title="Green" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Hunter" title="Hunter" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Ivory" title="Ivory" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Lavender" title="Lavender" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Pearl_Pink" title="Pearl Pink" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Light_Sky_Blue" title="Light Sky Blue" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Lilac" title="Lilac" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Orange" title="Orange" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Pink" title="Pink" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Red" title="Red" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Royal_Blue" title="Royal Blue" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Sage" title="Sage" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Silver" title="Silver" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/White" title="White" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Regency" title="Regency" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
-			<div onclick="setSelect(this)" to="Taffeta/Watermelon" title="Watermelon" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);">
-			</div>
+			<dd id="taffeta" class="color-chart-focus">
+			<img src="http://www.dressbib.com/image/catalog/colorchat/taffeta.jpg"/>
+<div onclick="setSelect(this)" to="taffeta/White_058" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/WaterMelon_065" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/SkinPink_089" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Silver_113" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Sage_073" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/RoyalBlue_127" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Regency_125" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Red_025" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Purple_071" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Pink_129" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/PearlPink_048" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Org_050" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/OrangeRed_067" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Mint_083" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Lilac_006" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/LightSkyBlue_100" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/LightPlum_082" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Lavender_034" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Kelly_080" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Ivory_021" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/IceBlue_081" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Hunter_105" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Green_049" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Grape_040" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Gold_026" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Fuchsia_066" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/DarkRoyalBlue_035" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/DarkNavy_099" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/DarkGreen_118" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/DarkBrown_101" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Daffodil_063" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Chocolate_094" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Champagne_027" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Burgundy_078" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/BudGreen_126" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Brown_086" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/BrightRustRed_037" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Blue_103" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+<div onclick="setSelect(this)" to="taffeta/Black_024" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			</dd>
 		</dl>
 	</div>
