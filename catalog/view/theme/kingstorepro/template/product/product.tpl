@@ -1497,11 +1497,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Organza/Daffodil.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/organza_black.jpg">
 				Daffodil
 			</dt>
 			<dd id="organza" class="color-chart-focus">
-				<img src="http://www.missydress.co.uk/skin/frontend/default/missydress/color-chart/Organza.jpg">
+				<img src="http://www.dressbib.com/image/catalog/colorchat/organza.jpg">
 				<div onclick="setSelect(this)" to="Organza/Brown" title="Brown" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
 			<div onclick="setSelect(this)" to="Organza/Black" title="Black" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);">
 			</div>
