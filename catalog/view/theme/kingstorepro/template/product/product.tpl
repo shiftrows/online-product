@@ -1502,45 +1502,45 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 			</dt>
 			<dd id="organza" class="color-chart-focus">
 			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/organza.jpg"/>
-			<div onclick="setSelect(this)" to="organza/White_022" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/WaterMelon_005" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/SkinPink_024" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/Silver_015" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/Sage_023" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/RoyalBlue_031" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/Regency_024" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/Red_028" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/Purple_029" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/Pink_035" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-			<div onclick="setSelect(this)" to="organza/PearlPink_010" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Org_012" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/OrangeRed_050" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Mint_002" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Lilac_009" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/LightSkyBlue_008" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/LightPlum_016" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Lavender_055" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Kelly_048" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Ivory_006" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/IceBlue_054" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Hunter_043" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Green_026" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Grape_020" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Gold_044" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Fuchsia_014" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/DarkRoyalBlue_045" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/DarkNavy_004" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/DarkGreen_040" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/DarkBrown_051" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Daffodil_019" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Chocolate_051" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Champagne_041" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Burgundy_021" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/BudGreen_017" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Brown_011" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/BrightRustRed_007" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Blue_037" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
-<div onclick="setSelect(this)" to="organza/Black_042" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"/>
+			<div onclick="setSelect(this)" to="organza/White_022" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/WaterMelon_005" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/SkinPink_024" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/Silver_015" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/Sage_023" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/RoyalBlue_031" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/Regency_024" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/Red_028" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/Purple_029" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/Pink_035" title="Pink" style="left: 16px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+			<div onclick="setSelect(this)" to="organza/PearlPink_010" title="Pearl Pink" style="left: 84px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Org_012" title="Orange" style="left: 152px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/OrangeRed_050" title="Orange Red" style="left: 220px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Mint_002" title="Mint" style="left: 288px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Lilac_009" title="Lilac" style="left: 356px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/LightSkyBlue_008" title="Sky Blue" style="left: 424px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/LightPlum_016" title="Light Plum" style="left: 492px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Lavender_055" title="Lavender" style="left: 560px; top: 57px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Kelly_048" title="Kelly" style="left: 16px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Ivory_006" title="Ivory" style="left: 84px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/IceBlue_054" title="Ice Blue" style="left: 152px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Hunter_043" title="Hunter" style="left: 220px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Green_026" title="Green" style="left: 288px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Grape_020" title="Grape" style="left: 356px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Gold_044" title="Golden" style="left: 424px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Fuchsia_014" title="Fuchsia" style="left: 492px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/DarkRoyalBlue_045" title="Dark Royal Blue" style="left: 560px; top: 113px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/DarkNavy_004" title="Dark Navy" style="left: 16px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/DarkGreen_040" title="Dark Green" style="left: 84px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/DarkBrown_051" title="DarkBrown" style="left: 152px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Daffodil_019" title="Daffodil" style="left: 220px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Chocolate_051" title="Chocolate" style="left: 288px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Champagne_041" title="Champagne" style="left: 356px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Burgundy_021" title="Burgundy" style="left: 424px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/BudGreen_017" title="BudGreen" style="left: 492px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Brown_011" title="Brown" style="left: 560px; top: 169px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/BrightRustRed_007" title="Rust Red" style="left: 16px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Blue_037" title="Blue" style="left: 84px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="organza/Black_042" title="Black" style="left: 152px; top: 225px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
 			</dd>
 		</dl>
 	</div>
