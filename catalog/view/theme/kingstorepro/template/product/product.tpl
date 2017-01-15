@@ -1553,17 +1553,17 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/chiffion/Black_017.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/chiffon/Black_017.jpg">
 				Daffodil
 			</dt>
 			<dd id="elastic_woven_satin" class="color-chart-focus">
 				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/chiffion.jpg"/>
-<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/White_015" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
-<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/WaterMelon_93" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
-<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/SkinPink_4" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
-<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/Silver_11" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
-<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/Sage_220" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
-<div onclick="setSelect(this)" to="upload/ColorChart/chiffon/RoyalBlue_8" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="chiffon/White_015" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="chiffon/WaterMelon_93" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="chiffon/SkinPink_4" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="chiffon/Silver_11" title="Silver" style="left: 220px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="chiffon/Sage_220" title="Sage" style="left: 288px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
+<div onclick="setSelect(this)" to="chiffon/RoyalBlue_8" title="Royal Blue" style="left: 356px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
 <div onclick="setSelect(this)" to="chiffon/Regency_020" title="Regency" style="left: 424px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
 <div onclick="setSelect(this)" to="chiffon/Red_19" title="Red" style="left: 492px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
 <div onclick="setSelect(this)" to="chiffon/Purple_20" title="Purple" style="left: 560px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"></div>
