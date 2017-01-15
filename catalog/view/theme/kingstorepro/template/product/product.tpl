@@ -581,7 +581,7 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 	}
 	function setSelect(obj){
 		obj.parentNode.previousElementSibling.childNodes[2].textContent=obj.attributes['title'].nodeValue;
-		obj.parentNode.previousElementSibling.childNodes[1].src="http://www.dressbib.com/image/catalog/colorchat/" + obj.attributes['to'].nodeValue + ".jpg";
+		obj.parentNode.previousElementSibling.childNodes[1].src="http://www.dressbib.co.uk/image/catalog/colorchat/" + obj.attributes['to'].nodeValue + ".jpg";
 	}
 </script>
 
@@ -1497,11 +1497,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/organza/Black_042.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/organza/Black_042.jpg">
 				Daffodil
 			</dt>
 			<dd id="organza" class="color-chart-focus">
-			<img src="http://www.dressbib.com/image/catalog/colorchat/organza.jpg"/>
+			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/organza.jpg"/>
 			<div onclick="setSelect(this)" to="organza/White_022" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			<div onclick="setSelect(this)" to="organza/WaterMelon_005" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 			<div onclick="setSelect(this)" to="organza/SkinPink_024" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
@@ -1553,11 +1553,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/chiffion/Black_017.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/chiffion/Black_017.jpg">
 				Daffodil
 			</dt>
 			<dd id="elastic_woven_satin" class="color-chart-focus">
-				<img src="http://www.dressbib.com/image/catalog/colorchat/chiffion.jpg"/>
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/chiffion.jpg"/>
 <div onclick="setSelect(this)" to="upload/ColorChart/chiffon/White_015" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="upload/ColorChart/chiffon/WaterMelon_93" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="upload/ColorChart/chiffon/SkinPink_4" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
@@ -1609,11 +1609,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/elastic_satin/Black_059.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/elastic_satin/Black_059.jpg">
 				Daffodil
 			</dt>
 			<dd id="elastic_woven_satin" class="color-chart-focus">
-			<img src="http://www.dressbib.com/image/catalog/colorchat/elastic_satin.jpg"/>
+			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/elastic_satin.jpg"/>
 <div onclick="setSelect(this)" to="elastic_satin/White_022" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="elastic_satin/WaterMelon_808" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="elastic_satin/SkinPink_100" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
@@ -1665,11 +1665,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/satin/Black_043.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/satin/Black_043.jpg">
 				Daffodil
 			</dt>
 			<dd id="matte_satin" class="color-chart-focus">
-			<img src="http://www.dressbib.com/image/catalog/colorchat/satin.jpg"/>
+			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/satin.jpg"/>
 <div onclick="setSelect(this)" to="satin/White_082" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="satin/WaterMelon_096" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="satin/SkinPink_068" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
@@ -1721,11 +1721,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/Satin_Chiffon/Black.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/Satin_Chiffon/Black.jpg">
 				Daffodil
 			</dt>
 			<dd id="satin" class="color-chart-focus">
-			<img src="http://www.dressbib.com/image/catalog/colorchat/Satin_Chiffon.jpg"/>
+			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/Satin_Chiffon.jpg"/>
 <div onclick="setSelect(this)" to="Satin_chiffon/Blue" title="Blue" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="Satin_chiffon/Bright Rust Red" title="Rust Red" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="Satin_chiffon/Brown" title="Brown" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
@@ -1774,11 +1774,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/silk_like_satin/Black_017.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/silk_like_satin/Black_017.jpg">
 				Daffodil
 			</dt>
 			<dd id="silk_like_satin" class="color-chart-focus">
-			<img src="http://www.dressbib.com/image/catalog/colorchat/silk_like_satin.jpg"/>
+			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/silk_like_satin.jpg"/>
 <div onclick="setSelect(this)" to="silk_like_satin/White_002" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="silk_like_satin/WaterMelon_083" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="silk_like_satin/SkinPink_068" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
@@ -1830,11 +1830,11 @@ include('catalog/view/theme/'.$config->get('config_template').'/template/themegl
 		</p>
 		<dl class="cdl">
 			<dt>
-				<img src="http://www.dressbib.com/image/catalog/colorchat/taffeta/Black_024.jpg">
+				<img src="http://www.dressbib.co.uk/image/catalog/colorchat/taffeta/Black_024.jpg">
 				Daffodil
 			</dt>
 			<dd id="taffeta" class="color-chart-focus">
-			<img src="http://www.dressbib.com/image/catalog/colorchat/taffeta.jpg"/>
+			<img src="http://www.dressbib.co.uk/image/catalog/colorchat/taffeta.jpg"/>
 <div onclick="setSelect(this)" to="taffeta/White_058" title="White" style="left: 16px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="taffeta/WaterMelon_065" title="Water Melon" style="left: 84px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
 <div onclick="setSelect(this)" to="taffeta/SkinPink_089" title="Peach" style="left: 152px; top: 1px; opacity: 0; background-color: rgb(255, 255, 255);"/>
